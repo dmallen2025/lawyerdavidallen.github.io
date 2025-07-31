@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>David M. Allen Attorney LLC</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #1e3d59;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-weight: bold;
+      color: #2e74b5;
+    }
+
+    nav {
+      background-color: #16324f;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      width: 100%;
+      background-color: #000;
+      overflow: hidden;
+    }
+
+    .hero2 {
+      width: 100%;
+      background-color: #16324f;
+      overflow: hidden;
+      color: white;
+      padding-top: 20px;
+    }
+
+    .hero-inner {
+      width: 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-inner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hero-inner2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero-inner2 img {
+      width: 60%;
+      height: auto;
+      display: block;
+    }
+
+    .hero-inner2 p {
+      margin-top: 10px;
+      font-size: 1.4em;
+      color: white;
+      font-style: italic;
+    }
+
+    @media (min-width: 1200px) {
+      .hero-inner img {
+        max-height: 600px;
+      }
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+      padding-top: 75px;
+    }
+
+    .section h2 {
+      color: #1e3d59;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+
+    .back-to-top-inline {
+      float: right;
+      font-size: 0.9em;
+      margin-top: -32px;
+    }
+
+    footer {
+      background-color: #1e3d59;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85em;
+    }
+
+    .tagline {
+      text-align: center;
+      font-size: 1.4em;
+      margin: 20px 0;
+      font-style: italic;
+      color: #555;
+    }
+
+    .staff-bio {
+      margin-bottom: 20px;
+    }
+
+    .staff-bio p {
+      margin: 5px 0;
+    }
+
+    .pdf-link {
+      margin-left: 20px;
+    }
+
+    /* Floating back-to-top button */
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 0.9em;
+      display: none;
+      align-items: center;
+      z-index: 9999;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      transition: opacity 0.3s ease;
+    }
+
+    .back-to-top.show {
+      display: flex;
+    }
+
+    .back-to-top img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero2">
+    <div class="hero-inner2">
+      <img src="da-logo-w.png" alt="David M. Allen Attorney LLC">
+      <p>Strategic Legal Counsel</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#staff">Staff</a>
+    <a href="#services">Services</a>
+    <a href="#payments">Payments</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <div class="hero-inner">
+      <img src="courthouse.png" alt="David Allen Law - Strategic Legal Counsel">
+    </div>
+  </div>
+
+  <div class="content">
+
+    <div class="tagline">Strategic Legal Counsel</div>
+
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <p>David M. Allen is an attorney licensed in the State of Maryland for over 22 years. David M. Allen Attorney LLC is a firm that puts clients first.</p>
+
+      <h3>Mission Statement</h3>
+      <p>To deliver strategic legal counsel that protects our client's interests and advances their goals. We build lasting partnerships with our clients through personalized attention, clear communication, and an unwavering dedication to their success.</p>
+
+      <h3>Vision Statement</h3>
+      <p>To become the trusted name for guiding clients through the most important moments of their lives and their businesses.</p>
+    </section>
+
+    <section id="staff" class="section">
+      <h2>Staff</a></h2>
+
+      <div class="staff-bio">
+        <strong>David M. Allen || Attorney</strong>
+        <p>An attorney for over 22 years, David M. Allen established this firm to put people first and advance positive outcomes for people interacting with the legal system. For the firm, David handles wills and estates, business and non-profit clients, and automobile accidents. Known for listening and attention to detail, David enjoys working with clients and advancing their goals.</p>
+        <p>Email: <a href="mailto:Dmallen@lawyerdavidallen.com">Dmallen@lawyerdavidallen.com</a></p>
+        <p>Phone: (443) 863-8174</p>
+      </div>
+
+      <div class="staff-bio">
+        <strong>David B. Allen || Of Counsel</strong>
+        <p>An attorney with over 40 years of experience, David B. Allen brings a host of knowledge, expertise and strategic thinking that are a great asset to this firm.</p>
+        <p>Email: <a href="mailto:Dba943@yahoo.com">Dba943@yahoo.com</a></p>
+        <p>Phone: (410) 979-3904</p>
+      </div>
+
+      <div class="staff-bio">
+        <strong>Greg Dash || Of Counsel</strong>
+        <p>An attorney with 10+ years of experience, Mr. Dash provides services in Criminal Law, Family Law, and Estate Planning. He is passionate about estate planning as it helps families avoid neglecting sensitive and important matters.</p>
+        <p>Email: <a href="mailto:Gdash@dashlawfirm.com">Gdash@dashlawfirm.com</a></p>
+        <p>Phone: (410) 777-9193</p>
+      </div>
+
+      <div class="staff-bio">
+        <strong>Scherron Lee || Paralegal</strong>
+        <p>A paralegal for over 25 years, Mr. Lee manages our personal injury department. Scherron brings a wide range of experience to the firm and enjoys working directly with clients and conducting research.</p>
+        <p>Email: <a href="mailto:Scherron@lawyerdavidallen.com">Scherron@lawyerdavidallen.com</a></p>
+        <p>Phone: (443) 769-8045</p>
+      </div>
+
+      <div class="staff-bio">
+        <strong>Miles Allen || Administrative Assistant</strong>
+        <p>Miles is our media and marketing department manager. Miles also provides support for all office staff and manages daily operations, contributing to a positive work environment and experience for clients.</p>
+        <p>Email: <a href="mailto:Miles@lawyerdavidallen.com">Miles@lawyerdavidallen.com</a></p>
+        <p>Phone: (443) 722-2976</p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <p>David M. Allen Attorney LLC provides services in all areas of law, with a focus on:</p>
+      <ul>
+        <li>Wills and Estates</li>
+        <li>Business and Non-Profit Consultation</li>
+        <li>Automobile Accidents</li>
+      </ul>
+    </section>
+
+    <section id="payments" class="section">
+      <h2>Payments</h2>
+      <p>Contact us about electronic payments. We can currently accept CashApp and Zelle. We will update this page as other options become available.</p>
+    </section>
+
+    <section id="resources" class="section">
+      <h2>Resources</h2>
+   
+          <a href="https://www.techrens.com/mnt/data/ESTATE%20PLANNING%20WORKSHEET.pdf" target="_blank">Estate Planning Worksheet (PDF)</a><br>
+          Fill out this form in advance of your appointment to discuss a will or estate planning.
+
+        <br/><br/>
+
+          <a href="https://www.techrens.com/mnt/data/Estate%20Ledger%20Form.pdf" target="_blank">Estate Ledger Form (PDF)</a><br>
+          Use this form to record transactions for an estate or Power of Attorney.
+
+        <br/><br/>
+
+          <a href="Ground Rent Redemption Calculator - ver 1.0 - 3_2001.xlsx" target="_blank">Ground Rent Calculator</a><br>
+          Use this app to determine the basic amount necessary to purchase your ground rent. Ground rents can be complicated, there may be other fees involved, especially if any payments are past due. If you have any further questions, please call—we will be happy to speak with you.
+
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:INFO@LAWYERDAVIDALLEN.COM">INFO@LAWYERDAVIDALLEN.COM</a></p>
+      <p><strong>Phone:</strong> 443-863-8174</p>
+      <p><strong>Website:</strong> <a href="https://www.lawyerdavidallen.com" target="_blank">www.lawyerdavidallen.com</a></p>
+    </section>
+  </div>
+
+  <a href="#home" class="back-to-top" aria-label="Back to Top">Back to Top</a>
+
+  <footer>
+    <p>This website is for informational purposes only. Using this site or communicating with David M. Allen Attorney LLC through this site does not form an attorney/client relationship.</p>
+    <p>This site is legal advertising.</p>
+    <p>&copy; 2025 David M. Allen Attorney LLC. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const backToTopBtn = document.querySelector('.back-to-top');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+    backToTopBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+</body>
+</html>
